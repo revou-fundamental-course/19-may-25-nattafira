@@ -35,9 +35,55 @@
       kali <b>9/5</b> tambah <b>32</b>.
     </p>
     <p class="rumus" id="rumus-formula">
-      S(°F) = (S(°C) × 9/5) + 32<br />
+      S(°F) = (S(°C) x 9/5) + 32<br />
       atau<br />
-      S(°F) = (S(°C) × 1.8) + 32
+      S(°F) = (S(°C) x 1.8) + 32
+    </p>
+  </div>
+
+  <script src="js\script.js"></script>
+</body>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konversi Suhu</title>
+  <link rel="stylesheet" href="cs\style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <p class="intro" id="intro-text">
+      Masukkan suhu derajat Celsius (°C) ke kotak di bawah, lalu klik tombol Konversi
+      untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).
+    </p>
+
+    <label id="input-label"><b>Celsius (°C):</b></label><br />
+    <textarea id="input" rows="2"></textarea><br />
+
+    <div class="button-group">
+      <button onclick="convert()">Konversi</button>
+      <button onclick="resetFields()">Reset</button>
+      <button onclick="toggleMode()">Reverse</button>
+    </div>
+
+    <label id="output-label"><b>Fahrenheit (°F):</b></label><br />
+    <textarea id="output" rows="2" readonly></textarea><br />
+
+    <label for="calculation"><b>Cara Kalkulasi:</b></label><br />
+    <textarea id="calculation" rows="2" readonly></textarea><br />
+
+    <h3 id="rumus-title">Cara Konversi Dari Celsius (°C) ke Fahrenheit (°F)</h3>
+    <p id="rumus-deskripsi">
+      Suhu <i>S</i> dalam derajat Fahrenheit (°F) sama dengan suhu <i>S</i> dalam derajat Celsius (°C)
+      kali <b>9/5</b> tambah <b>32</b>.
+    </p>
+    <p class="rumus" id="rumus-formula">
+      S(°F) = (S(°C) x 9/5) + 32<br />
+      atau<br />
+      S(°F) = (S(°C) x 1.8) + 32
     </p>
   </div>
 
