@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #fff0f6; /* soft pastel pink */
+  margin: 0;
+  padding: 30px;
+  color: #5a3e5b; /* dark mauve */
+}
+
+.container {
+  background-color: #fff; /* putih bersih */
+  padding: 30px 35px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 20px; /* lebih bulat dan halus */
+  box-shadow: 0 10px 20px rgba(218, 174, 208, 0.3); /* lembut dan feminin */
+  border: 1px solid #f2d7e4;
+}
+
+.intro {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #a56ca8;
+}
+
+textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 15px 18px;
+  margin-bottom: 20px;
+  border: 2px solid #d9a1c4; /* soft pink border */
+  border-radius: 15px;
+  resize: none;
+  box-sizing: border-box;
+  background-color: #fff5fb;
+  color: #5a3e5b;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #a96fbc;
+  background-color: #f9e6fb;
+}
+
+.button-group {
+  margin-bottom: 25px;
+}
+
+.button-group button {
+  margin-right: 12px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #d791bf, #a86ca1);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(168, 108, 161, 0.4);
+  transition: background 0.4s ease, box-shadow 0.3s ease;
+}
+
+.button-group button:hover {
+  background: linear-gradient(135deg, #a86ca1, #d791bf);
+  box-shadow: 0 7px 14px rgba(168, 108, 161, 0.6);
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #8e5a8c;
+  letter-spacing: 1.2px;
+}
+
+.rumus {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #6a3b6a;
+  background-color: #f7e7f7;
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1px solid #d8b4d8;
+}
